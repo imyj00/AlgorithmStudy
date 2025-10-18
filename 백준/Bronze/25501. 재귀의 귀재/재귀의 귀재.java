@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class Main{
 
     public static int[] recursion(String s, int l, int r, int n){
-        int[] result = new int[2];
+       
 
         if(l >= r)return new int[]{1, n};
 
@@ -39,4 +39,5 @@ public class Main{
         }
 
     }
+
 }
