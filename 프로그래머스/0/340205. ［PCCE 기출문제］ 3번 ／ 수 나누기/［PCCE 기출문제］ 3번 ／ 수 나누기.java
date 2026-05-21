@@ -10,6 +10,7 @@ public class Solution {
             answer += number % 100;
             number /= 100;
         }
+        //while(number > 0) : number가 0보다 클 때 동안 계속 반복
 
         System.out.println(answer);
     }
