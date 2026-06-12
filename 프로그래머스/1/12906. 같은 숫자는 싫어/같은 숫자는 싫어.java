@@ -31,24 +31,6 @@ public class Solution {
         }
         
         
-        
-        
-//         Queue<Integer> q = new LinkedList();
-        
-//         for(int n : arr){
-//             q.add(arr[n]);
-//         }
-                
-//         for(int n : q){
-//             if(q.get(n).isEqual(q.get(n+1))){
-//                 q.remove(n);             
-//             }
-//         }
-        
-//         for(int n : q){
-//             answer.add(q.get(n));
-//         }
-        
         System.out.println(answer);
 
         return answer;
